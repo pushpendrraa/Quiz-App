@@ -1,0 +1,67 @@
+body{
+   background: linear-gradient(to right, #811eaf, #bea5c9);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.Container{
+    width: 550px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+.Container hr{
+    border: none;
+    height: 2px;
+    background-color: #707070;
+    width: 100%;
+}
+.Container h2{
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.Container ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 0px;
+}
+.Container ul li{
+    border: 2px solid #cacaca;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.Container ul li:hover{
+    background-color: #ececec;
+}
+.Container ul li.correct{
+    background-color: #e7ffe2;
+    border: 2px solid #ccffc2
+}
+.Container ul li.wrong{
+     background-color: #fff0f0;
+    border: 2px solid #ffcfcf;
+   
+}
+.Container button{
+    
+    background-color: #8032da;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.Container button:hover{
+    background-color: #6e03e9;
+}
