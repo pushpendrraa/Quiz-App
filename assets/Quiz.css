@@ -65,3 +65,15 @@ body{
 .Container button:hover{
     background-color: #6e03e9;
 }
+.green{
+    color: green;
+    font-weight: 700;
+}
+.red{
+    color: red;
+    font-weight: 700;
+}
+.size{
+    font-size: 80px;
+    text-align: center;
+}
